@@ -1,0 +1,30 @@
+<RCC>
+  <qresource prefix="assets">
+    <file>assets/fonts/Century Gothic.ttf</file>
+    <file>assets/fonts/CenturyGothic.ttf</file>
+    <file>assets/fonts/GOTHIC.TTF</file>
+    <file>assets/fonts/GOTHICB.TTF</file>
+    <file>assets/fonts/GOTHICB0.TTF</file>
+    <file>assets/fonts/GOTHICBI.TTF</file>
+    <file>assets/fonts/GOTHICI.TTF</file>
+    <file>assets/ashvbdjags.jpg</file>
+    <file>assets/imgpsh_fullsize_anim.png</file>
+    <file>assets/back1.png</file>
+    <file>assets/back2.png</file>
+    <file>assets/background_auth.jpg</file>
+    <file>assets/browse image background.png</file>
+    <file>assets/browse image full.png</file>
+    <file>assets/Browse image.png</file>
+    <file>assets/browse remove and match image background.png</file>
+    <file>assets/browse remove and match image full.png</file>
+    <file>assets/check.png</file>
+    <file>assets/final ragister background 1 .jpg</file>
+    <file>assets/icon.png</file>
+    <file>assets/match.png</file>
+    <file>assets/non check box.png</file>
+    <file>assets/remove.png</file>
+    <file>assets/signin.png</file>
+    <file>assets/signup.png</file>
+    <file>assets/user.png</file>
+  </qresource>
+</RCC>
