@@ -115,7 +115,7 @@ border-radius: 20px;</string>
        <string/>
       </property>
      </widget>
-     <widget class="QLineEdit" name="email">
+     <widget class="QLineEdit" name="email_field">
       <property name="geometry">
        <rect>
         <x>290</x>
@@ -141,13 +141,13 @@ border-bottom: 1px solid rgb(170, 170, 170);</string>
        <set>Qt::ImhEmailCharactersOnly</set>
       </property>
       <property name="text">
-       <string>google@gmail.com</string>
+       <string/>
       </property>
       <property name="alignment">
        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="password">
+     <widget class="QLineEdit" name="password_field">
       <property name="geometry">
        <rect>
         <x>290</x>
@@ -171,7 +171,7 @@ border-bottom: 1px solid rgb(170, 170, 170);</string>
        <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
       </property>
       <property name="text">
-       <string>sdfjsdlfksj;</string>
+       <string/>
       </property>
       <property name="echoMode">
        <enum>QLineEdit::Password</enum>
@@ -252,7 +252,7 @@ border-bottom: 1px solid rgb(170, 170, 170);</string>
        <string/>
       </property>
      </widget>
-     <widget class="QCheckBox" name="remember">
+     <widget class="QCheckBox" name="remember_check">
       <property name="geometry">
        <rect>
         <x>262</x>
@@ -446,7 +446,7 @@ border-radius: 20px;</string>
        <string/>
       </property>
      </widget>
-     <widget class="QLineEdit" name="email_2">
+     <widget class="QLineEdit" name="email_2_field">
       <property name="geometry">
        <rect>
         <x>140</x>
@@ -470,7 +470,7 @@ border-bottom: 1px solid rgb(170, 170, 170);</string>
        <set>Qt::ImhEmailCharactersOnly</set>
       </property>
       <property name="text">
-       <string>google@gmail.com</string>
+       <string/>
       </property>
       <property name="echoMode">
        <enum>QLineEdit::Normal</enum>
@@ -479,7 +479,7 @@ border-bottom: 1px solid rgb(170, 170, 170);</string>
        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="firstname">
+     <widget class="QLineEdit" name="firstname_field">
       <property name="geometry">
        <rect>
         <x>140</x>
@@ -503,7 +503,7 @@ border-bottom: 1px solid rgb(170, 170, 170);</string>
        <set>Qt::ImhNone</set>
       </property>
       <property name="text">
-       <string>James</string>
+       <string/>
       </property>
       <property name="alignment">
        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -543,7 +543,7 @@ border: none;</string>
        <string/>
       </property>
      </widget>
-     <widget class="QCheckBox" name="signup_agree">
+     <widget class="QCheckBox" name="agree_check">
       <property name="geometry">
        <rect>
         <x>113</x>
@@ -685,7 +685,7 @@ border: none;</string>
        <string/>
       </property>
      </widget>
-     <widget class="QLineEdit" name="mobile_num">
+     <widget class="QLineEdit" name="mobile_num_field">
       <property name="geometry">
        <rect>
         <x>460</x>
@@ -709,7 +709,7 @@ border-bottom: 1px solid rgb(170, 170, 170);</string>
        <set>Qt::ImhNone</set>
       </property>
       <property name="text">
-       <string>+91 | 000 000 0000</string>
+       <string/>
       </property>
       <property name="echoMode">
        <enum>QLineEdit::Normal</enum>
@@ -718,7 +718,7 @@ border-bottom: 1px solid rgb(170, 170, 170);</string>
        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lastname">
+     <widget class="QLineEdit" name="lastname_field">
       <property name="geometry">
        <rect>
         <x>460</x>
@@ -742,7 +742,7 @@ border-bottom: 1px solid rgb(170, 170, 170);</string>
        <set>Qt::ImhNone</set>
       </property>
       <property name="text">
-       <string>Potter</string>
+       <string/>
       </property>
       <property name="alignment">
        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -820,7 +820,7 @@ border-bottom: 1px solid rgb(170, 170, 170);</string>
        <string/>
       </property>
      </widget>
-     <widget class="QLineEdit" name="password2">
+     <widget class="QLineEdit" name="password2_field">
       <property name="geometry">
        <rect>
         <x>460</x>
@@ -844,7 +844,7 @@ border-bottom: 1px solid rgb(170, 170, 170);</string>
        <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
       </property>
       <property name="text">
-       <string>sdfjsdlfksj;</string>
+       <string/>
       </property>
       <property name="echoMode">
        <enum>QLineEdit::Password</enum>
@@ -853,7 +853,7 @@ border-bottom: 1px solid rgb(170, 170, 170);</string>
        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="password1">
+     <widget class="QLineEdit" name="password1_field">
       <property name="geometry">
        <rect>
         <x>140</x>
@@ -877,7 +877,7 @@ border-bottom: 1px solid rgb(170, 170, 170);</string>
        <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
       </property>
       <property name="text">
-       <string>google@gmail.com</string>
+       <string/>
       </property>
       <property name="echoMode">
        <enum>QLineEdit::Password</enum>
