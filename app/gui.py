@@ -16,7 +16,7 @@ from .ui import resources_rc
 #     def __init__(self):
 #         super().__init__()
 #         self.setupUi(self)
-        
+
 
 class MainWindow(QMainWindow, Ui_LandingWindow):
     def __init__(self, app, parent=None):
@@ -35,7 +35,7 @@ class MainWindow(QMainWindow, Ui_LandingWindow):
     # def button_press(self):
     #     text = self.operation()
     #     QMessageBox.information(self, "Message Box", text)
-        
+
     def register_func(self):
         firstName = self.firstname_field.text()
         lastName = self.lastname_field.text()
@@ -45,19 +45,39 @@ class MainWindow(QMainWindow, Ui_LandingWindow):
         mobileNum = self.mobile_num_field.text()
 
         conn = sqlite3.connect("marble.db")
-        
+
         # Execute a SELECT query to check if the username and password are correct
         cursor = conn.cursor()
         cursor.execute("INSERT INTO users VALUES (?, ?, ?, ?, ?)", (firstName, lastName, email, mobileNum, password1))
 
         # Commit the changes to the database
         conn.commit()
-        
+
         # Close the database connection
         conn.close()
-        
+
         # Show a success message using a QMessageBox
         QMessageBox.information(self, "Success", "Signup successful!")
+
+    def login_func(self):
+        email = self.email_field.text()
+        password = self.password_field.text()
+
+        conn = sqlite3.connect("marble.db")
+
+        # Execute a SELECT query to check if the username and password are correct
+        cursor = conn.cursor()
+        # cursor.execute("INSERT INTO users VALUES (?, ?, ?, ?, ?)", (firstName, lastName, email, mobileNum, password1))
+        cursor.execute("SELECT * FROM users WHERE username = '{}' AND password = '{}'".format(email, password))
+        # Commit the changes to the database
+        conn.commit()
+
+        # Close the database connection
+        conn.close()
+
+        # Show a success message using a QMessageBox
+        QMessageBox.information(self, "Success", "Signin successful!")
+
 
     def gotoResult(self):
         self.w.show();
