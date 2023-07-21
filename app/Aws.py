@@ -18,7 +18,6 @@ class LoginDialog(QDialog):
         self.login_button = QPushButton("Login")
         self.login_button.clicked.connect(self.login)
 
-        self.layout = QVBoxLayout()
         self.layout.addWidget(self.username_label)
         self.layout.addWidget(self.username_line_edit)
         self.layout.addWidget(self.password_label)
